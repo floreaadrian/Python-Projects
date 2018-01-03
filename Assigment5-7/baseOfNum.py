@@ -6,7 +6,7 @@ class BaseNumb():
     def __init__(self):
         '''
         We have a list for each of the items we need
-
+        New line here
         '''
         self.books = []
         self.clients = []
