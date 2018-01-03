@@ -1,0 +1,10 @@
+1,alex
+2000,ion
+5,adi
+32,mihai
+43,relu
+4,ana
+10,cristi
+11,mirela
+92,carmen
+76,sophia

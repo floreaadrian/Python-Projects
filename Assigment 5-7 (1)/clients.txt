@@ -1,0 +1,11 @@
+11,Mihai Cristi
+22,Horoba Marcel
+12,Cristian Luci
+33,Marian Karla
+44,Peter Daiana
+55,Petre Ioan
+66,Lucaci Emanuel
+77,Horoba Daiana
+88,Ilis Ionut
+43,Florea Adrian
+99,Adriana
