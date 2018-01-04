@@ -49,6 +49,34 @@ def making_moves():
     player.print(False)
 
 
+def help():
+    s = "This is some game information: \n"
+    s += "If the direction of the plane is 1 it will look like this: \n"
+    s += "0 0 ^ 0 0 \n"
+    s += "- - - - - \n"
+    s += "0 0 | 0 0 \n"
+    s += "0 - - - 0 \n"
+    s += "If the direction of the plane is 2 it will look like this: \n"
+    s += "0 0 | 0 \n"
+    s += "| 0 | 0 \n"
+    s += "| - | > \n"
+    s += "| 0 | 0 \n"
+    s += "0 0 | 0 \n"
+    s += "If the direction of the plane is 3 it will look like this: \n"
+    s += "0 - - - 0 \n"
+    s += "0 0 | 0 0 \n"
+    s += "- - - - - \n"
+    s += "0 0 ˅ 0 0 \n"
+    s += "If the direction of the plane is 4 it will look like this: \n"
+    s += "0 | 0 0 \n"
+    s += "0 | 0 | \n"
+    s += "< | - | \n"
+    s += "0 | 0 | \n"
+    s += "0 | 0 0 \n"
+    s += "The plane occupy all the position different from 0\n"
+    print(s)
+
+
 def playing():
     ok = True
     auto = True
@@ -86,8 +114,10 @@ def playing():
                     print("Y is not valid!")
             except ValueError:
                 print("X must be int!")
-        player.print(True)
-        ai.print(False)
+        print("This is your board attacked:")
+        player.print(False)
+        print("This is the board you attacked:")
+        ai.print(True)
         if player.isGameLoose() == True:
             print("You lost the game!")
             ok = False
@@ -100,5 +130,6 @@ player = board()
 ai = board()
 letters = {'A': 1, 'B': 2, 'C': 3, 'D': 4, 'E': 5, 'F': 6, 'G': 7, 'H': 8,
            'a': 1, 'b': 2, 'c': 3, 'd': 4, 'e': 5, 'f': 6, 'g': 7, 'h': 8}
+help()
 making_moves()
 playing()

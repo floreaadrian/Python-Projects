@@ -32,6 +32,7 @@ class board:
     def get_board(self):
         return self._board
 
+
     def cond1(self, x, y):
         k = self._board
         if k[x][y] == k[x][y - 2] == k[x][y - 1] == k[x][y + 1] == k[x][y + 2] == k[x - 1][y] == k[x + 1][y] == \
