@@ -1,0 +1,15 @@
+21,21,21,21
+23,Colectionarul,Another Favorite,John Fowles
+54,Oribitor,Best,Mircea Cartarescu
+133,Nostra,Best,Filip Ioan
+222,Craii,Bestie,Mateiu Caragiale
+423,dfs,fds,dsa
+542,Colectionarul,Another Favorite,Florin Iaru
+555,Povesti,Best,Florin Iaru
+654,Travesti,Weird but awesome,Mircea Cartarescu
+1111,Nuvele,Best,IL Caragiale
+2321,321,321,321
+4345,Fraier de bucuresti,Bestie,Florin Iaru
+9943,Copii,Bestie,Filip Ioan
+42222,Teatru,Bestie,IL Caragiale
+2143,432,32,1

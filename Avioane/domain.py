@@ -19,6 +19,9 @@ class airplane:
 
 class board:
     def __init__(self, ):
+        '''
+        Here we initialize the board,-1 will be an empty space
+        '''
         self._board = [[-1, -1, -1, -1, -1, -1, -1, -1],
                        [-1, -1, -1, -1, -1, -1, -1, -1],
                        [-1, -1, -1, -1, -1, -1, -1, -1],
@@ -34,6 +37,9 @@ class board:
 
 
     def cond1(self, x, y):
+        '''
+        We verify the the first condition
+        '''
         k = self._board
         if k[x][y] == k[x][y - 2] == k[x][y - 1] == k[x][y + 1] == k[x][y + 2] == k[x - 1][y] == k[x + 1][y] == \
                 k[x + 2][y - 1] == k[x + 2][y] == k[x + 2][y + 1] == -1:
@@ -42,6 +48,9 @@ class board:
 
 
     def cond2(self, x, y):
+        '''
+        We verify the the second condition
+        '''
         k = self._board
         if k[x][y] == k[x][y - 2] == k[x][y - 1] == k[x][y + 1] == k[x - 1][y - 2] == k[x + 1][y - 2] == k[x - 2][y] == \
                 k[x - 1][y] == k[x + 1][y] == k[x + 2][y] == -1:
@@ -50,6 +59,9 @@ class board:
 
 
     def cond3(self, x, y):
+        '''
+        We verify the the third condition
+        '''
         k = self._board
         if k[x][y] == k[x][y - 2] == k[x][y - 1] == k[x][y + 2] == k[x][y + 2] == k[x + 1][y] == k[x - 1][y] == \
                 k[x - 2][y] == k[x - 2][y - 1] == k[x - 2][y + 1] == -1:
@@ -58,6 +70,9 @@ class board:
 
 
     def cond4(self, x, y):
+        '''
+        We verify the the forth condition
+        '''
         k = self._board
         if k[x][y] == k[x - 2][y] == k[x - 1][y] == k[x + 1][y] == k[x + 2][y] == k[x - 1][y + 2] == k[x][y + 2] == \
                 k[x - 1][y + 2] == k[x][y + 1] == k[x][y - 1] == -1:
@@ -66,6 +81,9 @@ class board:
 
 
     def make1(self, avion):
+        '''
+        We put the avion in the 1 position
+        '''
         k = self._board
         x = avion.getX() - 1
         y = avion.getY() - 1
@@ -76,6 +94,9 @@ class board:
 
 
     def make2(self, avion):
+        '''
+        We put the avion in the 2 position
+        '''
         k = self._board
         x = avion.getX() - 1
         y = avion.getY() - 1
@@ -86,6 +107,9 @@ class board:
 
 
     def make3(self, avion):
+        '''
+        We put the avion in the 3 position
+        '''
         k = self._board
         x = avion.getX() - 1
         y = avion.getY() - 1
@@ -96,6 +120,9 @@ class board:
 
 
     def make4(self, avion):
+        '''
+        We put the avion in the 4 position
+        '''
         k = self._board
         x = avion.getX() - 1
         y = avion.getY() - 1
@@ -106,6 +133,11 @@ class board:
 
 
     def validate_move(self, avion, prt):
+        '''
+        THis function wil validate the move
+        prt is for us to see if the player is the one who makes the moves
+        because we give visual feedback only to him
+        '''
         x = avion.getX()
         y = avion.getY()
         dir = avion.getDirection()
@@ -154,6 +186,9 @@ class board:
 
 
     def make_move(self, avion):
+        '''
+        Making moves based on the avion param
+        '''
         if avion.getDirection() == 1:
             self.make1(avion)
         elif avion.getDirection() == 2:
@@ -165,7 +200,12 @@ class board:
 
 
     def encode(self, number, attack):
-
+        '''
+        Here we encode the board
+        :param number: The number on the board
+        :param attack: If we need to hide were the airplanes are
+        :return:
+        '''
         if number == -2:
             return 'M'
         if number == -3:
@@ -193,6 +233,13 @@ class board:
 
 
     def make_attack(self, x, y, player):
+        '''
+
+        :param x: The x position
+        :param y: The y position
+        :param player: We see who makes the atack
+        :return: True if the attack was good and false if it was not
+        '''
         x -= 1
         y -= 1
         brd = self._board

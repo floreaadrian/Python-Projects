@@ -19,7 +19,7 @@ def ai_move():
         x = randint(3, 6)
         y = randint(2, 6)
 
-    return airplane(x,y,dir)
+    return airplane(x, y, dir)
 
 
 def making_moves():
@@ -34,12 +34,12 @@ def making_moves():
                 y = int(letters[y])
                 dir = int(input("Direction: "))
                 ar = airplane(x, y, dir)
-                if player.validate_move(ar,'player') == True:
+                if player.validate_move(ar, 'player') == True:
                     k += 1
                     player.make_move(ar)
-                    ar_ai=ai_move()
-                    while ai.validate_move(ar_ai,'ai') == False:
-                        ar_ai =ai_move()
+                    ar_ai = ai_move()
+                    while ai.validate_move(ar_ai, 'ai') == False:
+                        ar_ai = ai_move()
                     ai.make_move(ar_ai)
             else:
                 print("Invalid input!")
@@ -80,7 +80,7 @@ def help():
 def playing():
     ok = True
     auto = True
-    ply=player.get_board()
+    ply = player.get_board()
     while ok:
         vld = True
         x1 = 0
@@ -92,23 +92,32 @@ def playing():
                 y = input("Y: ")
                 if y in letters:
                     y = int(letters[y])
-                    if ai.make_attack(x, y,'player') == True:
-                        x=randint(x1-1,x1+1)
-                        y=randint(y1-1,y1+1)
+                    if ai.make_attack(x, y, 'player') == True:
                         if auto == True:
-                            while player.make_attack(x,y,'ai') == False:
+                            x = randint(0, 7)
+                            y = randint(0, 7)
+                            while player.make_attack(x, y, 'ai') == False:
                                 x = randint(0, 7)
                                 y = randint(0, 7)
-                            if ply[x][y] == -2 or ply[x][y] == -4:
-                                x1=x
-                                y1=y
+                            ply = player.get_board()
+                            print(ply[x][y])
+                            if ply[x][y] == -3 or ply[x][y] == -4:
+                                x1 = x
+                                y1 = y
+                                auto = False
                         else:
+                            x = randint(x1 - 1, x1 + 1)
+                            y = randint(y1 - 1, y1 + 1)
                             while player.make_attack(x, y, 'ai') == False:
                                 x = randint(x1 - 1, x1 + 1)
                                 y = randint(y1 - 1, y1 + 1)
-                            if ply[x][y] == -2 or ply[x][y] == -4:
-                                x1=x
-                                y1=y
+                            ply = player.get_board()
+                            if ply[x][y] == -3 or ply[x][y] == -4:
+                                x1 = x
+                                y1 = y
+                                auto = False
+                            else:
+                                auto=True
                         vld = False
                 else:
                     print("Y is not valid!")
