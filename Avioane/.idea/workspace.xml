@@ -1,26 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="367537c4-5529-4981-82fb-b41f14607162" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/../Assigment 5-7 (1)/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Assigment 5-7 (1)/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/../Assigment 5-7 (1)/Repository/bookRep.py" afterPath="$PROJECT_DIR$/../Assigment 5-7 (1)/Repository/bookRep.py" />
-      <change beforePath="$PROJECT_DIR$/../Assigment 5-7 (1)/Repository/clientRep.py" afterPath="$PROJECT_DIR$/../Assigment 5-7 (1)/Repository/clientRep.py" />
-      <change beforePath="$PROJECT_DIR$/../Assigment 5-7 (1)/Repository/rentRep.py" afterPath="$PROJECT_DIR$/../Assigment 5-7 (1)/Repository/rentRep.py" />
-      <change beforePath="$PROJECT_DIR$/../Assigment 5-7 (1)/Repository/test_rentRep.py" afterPath="$PROJECT_DIR$/../Assigment 5-7 (1)/Repository/test_rentRep.py" />
-      <change beforePath="$PROJECT_DIR$/../Assigment 5-7 (1)/books.txt" afterPath="$PROJECT_DIR$/../Assigment 5-7 (1)/books.txt" />
-      <change beforePath="$PROJECT_DIR$/../Assigment 5-7 (1)/clients.txt" afterPath="$PROJECT_DIR$/../Assigment 5-7 (1)/clients.txt" />
-      <change beforePath="$PROJECT_DIR$/../Assigment 5-7 (1)/controller/bookController.py" afterPath="$PROJECT_DIR$/../Assigment 5-7 (1)/controller/bookController.py" />
-      <change beforePath="$PROJECT_DIR$/../Assigment 5-7 (1)/controller/clientController.py" afterPath="$PROJECT_DIR$/../Assigment 5-7 (1)/controller/clientController.py" />
-      <change beforePath="$PROJECT_DIR$/../Assigment 5-7 (1)/controller/rentController.py" afterPath="$PROJECT_DIR$/../Assigment 5-7 (1)/controller/rentController.py" />
-      <change beforePath="$PROJECT_DIR$/../Assigment 5-7 (1)/rentals.txt" afterPath="$PROJECT_DIR$/../Assigment 5-7 (1)/rentals.txt" />
-      <change beforePath="$PROJECT_DIR$/../Assigment 5-7 (1)/start.py" afterPath="$PROJECT_DIR$/../Assigment 5-7 (1)/start.py" />
-      <change beforePath="$PROJECT_DIR$/../Assigment 5-7 (1)/ui/menu.py" afterPath="$PROJECT_DIR$/../Assigment 5-7 (1)/ui/menu.py" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/domain.py" afterPath="$PROJECT_DIR$/domain.py" />
-      <change beforePath="$PROJECT_DIR$/game.py" afterPath="$PROJECT_DIR$/game.py" />
-      <change beforePath="$PROJECT_DIR$/../Test5-9/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Test5-9/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/../Xsi0/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Xsi0/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="367537c4-5529-4981-82fb-b41f14607162" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -49,8 +30,8 @@
       <file leaf-file-name="game.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/game.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="484">
-              <caret line="99" column="49" lean-forward="true" selection-start-line="99" selection-start-column="49" selection-end-line="99" selection-end-column="49" />
+            <state relative-caret-position="995">
+              <caret line="99" column="49" lean-forward="false" selection-start-line="99" selection-start-column="49" selection-end-line="99" selection-end-column="49" />
               <folding>
                 <element signature="e#0#34#0" expanded="true" />
               </folding>
@@ -117,6 +98,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -129,7 +111,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -286,7 +267,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="836" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32957748" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
@@ -294,7 +274,7 @@
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.49931788" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14020029" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1416309" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -325,6 +305,24 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/domain.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3120">
+          <caret line="208" column="24" lean-forward="false" selection-start-line="208" selection-start-column="24" selection-end-line="208" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/game.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1485">
+          <caret line="99" column="49" lean-forward="true" selection-start-line="99" selection-start-column="49" selection-end-line="99" selection-end-column="49" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/domain.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3120">
@@ -708,8 +706,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/game.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="99" column="49" lean-forward="true" selection-start-line="99" selection-start-column="49" selection-end-line="99" selection-end-column="49" />
+        <state relative-caret-position="995">
+          <caret line="99" column="49" lean-forward="false" selection-start-line="99" selection-start-column="49" selection-end-line="99" selection-end-column="49" />
           <folding>
             <element signature="e#0#34#0" expanded="true" />
           </folding>
